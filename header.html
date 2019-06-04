@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="headerCss.css">
+	<script  src="HeaderJS.js"></script>
+	<script  src="jquery.js"></script>
+	
+</head>
+<body>
+	
+	<div id="div">
+		<div id="div1"  >
+
+
+		<nav>
+			<ul>
+				<li><a class="aabout" style="color: white;" href="#" id="aabout">About</a></li>
+				<li><a class="sskills" style="color: white;" href="#">My Skills</a></li>
+				<li><a class="ccontact" style="color: white;" href="#">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<header>
+			<h1 id="h1">Looking for a web developer?</h1>
+			<p>Welcome to my Website I'm a web developer<br>
+			If you want to know more about my skills click on the button below and <br>check it out!</p>
+<!--//////////////////////////////////////////////////-->
+			<center><input id="button1" type="button" value="FIND OUT MORE" style="position: absolute;margin-bottom: 15px;top: 160%;"></center>
+<!--////////////////////////////////////////////////// -->
+
+
+
+
+
+		</header>
+		<img name="slide" id="imgg" >
+		</div>
+		<div id="div4">
+			<h2 id="h23"><br><br>Something About Me</h2>
+			<p id="text1"><b>Hi, my name is Petar, and I'm junior front end developer. I think there is nothing that a man can't learn with enough effort and dedication.<br>Every day, I'm looking for ways to improve my knowledge in order to write a clean and sustainable code.
+			</b></p>
+
+	<input type="button" value="GET STARTED!" id="buttonGet" style="width: 200px;
+	height: 60px;border-radius: 50px;border: solid lightblue 5px;background-color: white;">
+			
+		</div>
+		<div id="div2">
+			<div>
+		<div><h1 id="h12" style="text-align: center;"><b>My Skills</b></h1></div>
+		<div id="divA" >
+			<center><div style="width: 20%;display: inline-block;">
+			<div  id="divimg" style="display: inline-block;width: 48%;position: ;">
+				
+			</div>
+			</div>	</center>
+
+
+		</div> 
+		<div id="divA" >
+			<center><div id="divB">
+			<img src="http://www.focuseduvation.com/wp-content/uploads/2017/09/HTML5-Image.png" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>
+			Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.</b></p>
+			</div>
+
+			<div style="display: inline-block;width:30%;height: 200px;">
+			<img src="https://retina-theme.com/wp-content/uploads/2017/01/css3-1841590_960_720.png" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>
+			Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</b></p>
+			</div>
+
+			<div style="display: inline-block;width:30%;height: 200px;">
+			<img src="https://c1.staticflickr.com/4/3701/19224697601_6b600f21eb.jpg" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>
+			JavaScript often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a programming language that is characterized as dynamic and prototype-based.</b></p>
+			</div>
+
+			<div style="display: inline-block;width:30%;height: 200px;">
+			<img src="http://pluspng.com/img-png/bootstrap-logo-vector-png-bootstrap-logo-512.jpg" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</b></p>
+			</div>
+
+			<div style="display: inline-block;width:30%;height: 200px;">
+			<img src="https://itakademija.files.wordpress.com/2016/07/jquery-icon.png?w=450" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>
+			jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.</b></p>
+			</div>
+
+			<div style="display: inline-block;width:30%;height: 200px;">
+			<img src="https://camo.githubusercontent.com/6795c053f2fafee4d1c76f3a181876013827dd5e/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333437303430322f313230383630372f32376637643134322d323564362d313165332d386330372d6139316532633736396435322e706e67" id="slika2">
+			<p style="margin-top: 150px;width: 90%;text-align: center;"><b>The AngularJS framework works by first reading the HTML, which has additional custom HTML attributes embedded into it.</b></p>
+			</div>
+
+			</center>
+				
+				
+				
+			
+		</div>
+	</div>
+		</div>
+		<div id="div3"><br>
+			<h1 id="h123">Let's Get In Touch!</h1>
+				<p id="text1"><b>Ready to start your next project with me? That's great! Send me an email and I will get back to you as soon as possible!</b></p>
+				<img id="icon" src="https://cdn1.iconfinder.com/data/icons/social-object-set-4-3/74/25-512.png">
+			<h2 id="mail">petarsimic6565@gmail.com</h2>
+			<center><input type="button" value="back to top" id="button3" style="position: absolute;top:350px;"></center>
+	</div>
+
+
+
+
+<script>
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+$(".aabout").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#h23").offset().top},
+        'slow');
+});
+		$(".sskills").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#h12").offset().top},
+        'slow');
+});
+		$(".ccontact").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#h123").offset().top},
+        'slow');
+});
+		$("#button1").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#h23").offset().top},
+        'slow');
+});
+		$("#buttonGet").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#h12").offset().top},
+        'slow');
+});
+				$("#button3").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".aabout").offset().top},
+        'slow');
+});
+$("#button1").on({
+		mouseenter:(function(){
+					$(this).animate({width:'240px',height: '80px'}, "fast");
+					$(this).css("color", "#00FFFF");
+
+			}),
+		mouseleave:(function(){
+					$(this).animate({width:'200px',height: '70px'}, "slow");
+					$(this).css("color", "white");
+			}),
+			});
+$("#buttonGet").on({
+		mouseenter:(function(){
+					$(this).animate({width:'240px',height: '70px'}, "fast");
+					$(this).css("color", "#00FFFF");
+
+			}),
+		mouseleave:(function(){
+					$(this).animate({width:'200px',height: '60px'}, "slow");
+					$(this).css("color", "black");
+			}),
+			});
+$("#button3").on({
+		mouseenter:(function(){
+					$(this).animate({width:'240px',height: '80px'}, "fast");
+					$(this).css("color", "black");
+
+			}),
+		mouseleave:(function(){
+					$(this).animate({width:'200px',height: '70px'}, "slow");
+					$(this).css("color", "white");
+			}),
+			});
+
+
+
+
+
+
+
+
+
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</body>
+</html>
